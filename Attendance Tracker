@@ -1,0 +1,22 @@
+using System;
+namespace Attendance_Tracker
+{
+ class Office
+ {
+  string name="arutselvan";
+  int pesentdays=34;
+  double Attendencepersentage;
+  
+   public Office()
+   {
+    Attendencepersentage=(double)pesentdays % 100;
+    }
+    static void Main(string[] agrs)
+    {
+     Office data= new Office();
+     Console.WriteLine(data.name);
+    Console.WriteLine(data.pesentdays);
+     Console.WriteLine(data.Attendencepersentage);
+     }
+     }
+     }
