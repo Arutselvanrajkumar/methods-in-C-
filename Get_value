@@ -1,0 +1,13 @@
+using System;
+namespace Userinpitexamples
+{
+ class examples
+ {
+ static void Main(string[] agrs)
+ {
+   string Enretthenumber=Console.ReadLine();
+   Console.WriteLine(Convert.ToString(Enretthenumber));
+   
+   }
+   }
+   }
