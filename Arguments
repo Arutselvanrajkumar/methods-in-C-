@@ -1,0 +1,15 @@
+using System;
+namespace Finder
+{
+class largefinder
+{
+ static void number(int a, int b, int c)
+ {
+  Console.WriteLine("large number is=" + c);
+  }
+  static void Main(string[]agrs)
+  {
+  number(a:23, b:65, c:78);
+  }
+  }
+  }
