@@ -1,0 +1,18 @@
+using System;
+namespace Typecasting
+{
+class string_to_int
+{
+static void Main(string[] agrs)
+{ string age="645";
+  int Q=3;
+  double amount=826.00;
+  bool Ans= false;
+  Console.WriteLine(Convert.ToInt32(age));
+   Console.WriteLine(Convert.ToString(Q));
+   Console.WriteLine(Convert.ToInt32(amount));
+    Console.WriteLine(Convert.ToString(Ans));
+   }
+  }
+  }
+
