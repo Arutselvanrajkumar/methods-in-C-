@@ -1,0 +1,15 @@
+using System;
+namespace Newone
+{
+ class RETURNTYPE
+ {
+  static int numbers(int a)
+  {
+  return 123 + a;
+  }
+  static void Main(string[]agrs)
+  {
+   Console.WriteLine(numbers(43));
+   }
+   }
+   }
