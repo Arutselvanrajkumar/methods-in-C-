@@ -1,25 +1,22 @@
 using System;
-
-namespace MyApplication
+namespace usingreturnkey
 {
-  class Program
+ class returnkey
+ {
+  static int number1(int x,int y)
   {
-    static int PlusMethodInt(int x, int y)
-    {
       return x + y;
-    }
-
-    static double PlusMethodDouble(double x, double y)
-    {
+      }
+      
+      static double number2(double x,double y)
+  {
       return x + y;
-    }
-
-    static void Main(string[] args)
-    {
-      int myNum1 = PlusMethodInt(8, 5);
-      double myNum2 = PlusMethodDouble(4.3, 6.26);
-      Console.WriteLine("Int: " + myNum1);
-      Console.WriteLine("Double: " + myNum2);
-    }  
-  }
-}
+      }
+      static void Main(string[]agrs)
+      {
+      Console.WriteLine("int ="+ number1(34,34));
+      Console.WriteLine("double ="+number2(5.45,9.56));
+      
+      }
+      }
+      }
